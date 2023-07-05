@@ -1,0 +1,71 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Tris/1.0.0": {
+        "dependencies": {
+          "EcoWindowsForms": "7.0.0.14861"
+        },
+        "runtime": {
+          "Tris.dll": {}
+        }
+      },
+      "EcoCore/7.0.0.14861": {
+        "runtime": {
+          "lib/net40/Eco.Handles.dll": {
+            "assemblyVersion": "7.1.0.0",
+            "fileVersion": "7.0.0.14861"
+          },
+          "lib/net40/Eco.Interfaces.dll": {
+            "assemblyVersion": "7.1.0.0",
+            "fileVersion": "7.0.0.14861"
+          },
+          "lib/net40/Eco.LinqExtender.dll": {
+            "assemblyVersion": "7.1.0.0",
+            "fileVersion": "7.0.0.14861"
+          },
+          "lib/net40/MDriven.Net.Http.dll": {
+            "assemblyVersion": "7.1.0.0",
+            "fileVersion": "7.0.0.14861"
+          }
+        }
+      },
+      "EcoWindowsForms/7.0.0.14861": {
+        "dependencies": {
+          "EcoCore": "7.0.0.14861"
+        },
+        "runtime": {
+          "lib/net40/Eco.Windows.Forms.dll": {
+            "assemblyVersion": "7.1.0.0",
+            "fileVersion": "7.0.0.14861"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Tris/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EcoCore/7.0.0.14861": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eHonYww2lWupiH0Ex9dOKc1woaobQpOVrkt1lWUSG8M9jekZI9fnUu1YU/lRgddD9D7uUK/rOlAl/9FzsrTUpw==",
+      "path": "ecocore/7.0.0.14861",
+      "hashPath": "ecocore.7.0.0.14861.nupkg.sha512"
+    },
+    "EcoWindowsForms/7.0.0.14861": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tK2YxKojCcMNw5ZXli6NivRqvL5Z92CM+YSHbVflT1bgsV/cJ/xRnElJAY32lLOK4Ksq8ImhI+f9KCGxWdfb5Q==",
+      "path": "ecowindowsforms/7.0.0.14861",
+      "hashPath": "ecowindowsforms.7.0.0.14861.nupkg.sha512"
+    }
+  }
+}

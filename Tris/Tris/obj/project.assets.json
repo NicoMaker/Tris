@@ -1,0 +1,161 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "EcoCore/7.0.0.14861": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Eco.Handles.dll": {},
+          "lib/net40/Eco.Interfaces.dll": {},
+          "lib/net40/Eco.LinqExtender.dll": {},
+          "lib/net40/MDriven.Net.Http.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Eco.Handles.dll": {},
+          "lib/net40/Eco.Interfaces.dll": {},
+          "lib/net40/Eco.LinqExtender.dll": {},
+          "lib/net40/MDriven.Net.Http.dll": {}
+        }
+      },
+      "EcoWindowsForms/7.0.0.14861": {
+        "type": "package",
+        "dependencies": {
+          "EcoCore": "7.0.0.14861"
+        },
+        "compile": {
+          "lib/net40/Eco.Windows.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Eco.Windows.Forms.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EcoCore/7.0.0.14861": {
+      "sha512": "eHonYww2lWupiH0Ex9dOKc1woaobQpOVrkt1lWUSG8M9jekZI9fnUu1YU/lRgddD9D7uUK/rOlAl/9FzsrTUpw==",
+      "type": "package",
+      "path": "ecocore/7.0.0.14861",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "EcoCore.nuspec.org",
+        "ecocore.7.0.0.14861.nupkg.sha512",
+        "ecocore.nuspec",
+        "lib/net40/Eco.Handles.dll",
+        "lib/net40/Eco.Interfaces.dll",
+        "lib/net40/Eco.LinqExtender.dll",
+        "lib/net40/MDriven.Net.Http.dll"
+      ]
+    },
+    "EcoWindowsForms/7.0.0.14861": {
+      "sha512": "tK2YxKojCcMNw5ZXli6NivRqvL5Z92CM+YSHbVflT1bgsV/cJ/xRnElJAY32lLOK4Ksq8ImhI+f9KCGxWdfb5Q==",
+      "type": "package",
+      "path": "ecowindowsforms/7.0.0.14861",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "EcoWindowsForms.nuspec.org",
+        "ecowindowsforms.7.0.0.14861.nupkg.sha512",
+        "ecowindowsforms.nuspec",
+        "lib/net40/Eco.Windows.Forms.dll"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "EcoWindowsForms >= 7.0.0.14861"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Utente\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Utente\\Desktop\\Tris\\Tris\\Tris.csproj",
+      "projectName": "Tris",
+      "projectPath": "C:\\Users\\Utente\\Desktop\\Tris\\Tris\\Tris.csproj",
+      "packagesPath": "C:\\Users\\Utente\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Utente\\Desktop\\Tris\\Tris\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Utente\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "dependencies": {
+          "EcoWindowsForms": {
+            "target": "Package",
+            "version": "[7.0.0.14861, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'EcoCore 7.0.0.14861' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "EcoCore",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'EcoWindowsForms 7.0.0.14861' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "EcoWindowsForms",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
+}
